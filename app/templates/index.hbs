@@ -1,0 +1,19 @@
+<h1> Welcome to Super Rentals </h1>
+
+We hope you find exactly what you're looking for in a place to stay.
+
+<div class="availables">
+  <h2> Available Rentals </h2>
+  {{#each model.rentals as |rental|}}
+    {{rental-tile rental=rental}} {{rental-popularity rental}} {{rental-cost rental}}
+    <hr>
+  {{/each}}
+</div>
+
+{{new-rental saveRental2="saveRental3"}}
+
+<hr>
+
+{{#link-to 'about'}}About{{/link-to}}
+<br>
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

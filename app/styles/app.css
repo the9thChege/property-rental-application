@@ -1,0 +1,58 @@
+.page-links {
+  text-align: right;
+  font-style: oblique;
+}
+
+.page-links a {
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(148, 42, 14);
+  background-color: hsl(2, 57%, 40%);
+  background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0, 0, 0, .4) 50px, rgba(0, 0, 0, .4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, .4) 63px, rgba(0, 0, 0, .4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, .5) 116px, rgba(0, 0, 0, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(0, 0, 0, .5) 169px, rgba(0, 0, 0, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(0, 0, 0, .5) 182px, rgba(0, 0, 0, .5) 232px, transparent 232px), repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0, 0, 0, .4) 50px, rgba(0, 0, 0, .4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, .4) 63px, rgba(0, 0, 0, .4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, .5) 116px, rgba(0, 0, 0, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(0, 0, 0, .5) 169px, rgba(0, 0, 0, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(0, 0, 0, .5) 182px, rgba(0, 0, 0, .5) 232px, transparent 232px), repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0, 0, 0, .2) 2px, rgba(0, 0, 0, .2) 3px, transparent 3px, transparent 5px, rgba(0, 0, 0, .2) 5px);
+  color: #5fb965;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.jumbotron h1 {
+  color: Red;
+  font-family: 'Unica One', cursive;
+}
+
+.jumbotron {
+  background-color: black;
+  background-image: url(https://kuler.adobe.com/api/v2/themes/426565.png?width=1500&height=1500);
+  background-size: contain;
+}
+
+button {
+  color: black;
+}
+
+.availables {
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.glyphicon-fire {
+  color: orange;
+  font-size: 30px;
+}
+
+.map-display {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.reviews-sorted {
+  margin: 0 auto;
+  background-color: #28273c;
+}
+
+.review-text{
+  font-size: 18px;
+}
